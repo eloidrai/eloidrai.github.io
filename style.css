@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'comic_reliefregular';
+    src: url('fonts/comicrelief_regular_macroman/ComicRelief-webfont.eot');
+    src: url('fonts/comicrelief_regular_macroman/ComicRelief-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/comicrelief_regular_macroman/ComicRelief-webfont.woff2') format('woff2'),
+         url('fonts/comicrelief_regular_macroman/ComicRelief-webfont.woff') format('woff'),
+         url('fonts/comicrelief_regular_macroman/ComicRelief-webfont.ttf') format('truetype'),
+         url('fonts/comicrelief_regular_macroman/ComicRelief-webfont.svg#comic_reliefregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+::selection
+{
+    background-color: lightgrey;
+}
+body
+{
+    background-color: brown;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+header
+{
+    background-image: url("img/np.png");
+}
+h1
+{
+    display: flex;
+    font-size: 40px;
+    font-family: comic_reliefregular;
+    justify-content: center;
+    margin: 10px;
+    position: relative;
+    top: 8px;
+}
+h1 a
+{
+    text-decoration: none;
+    color: black;
+}
+#menu
+{
+    display: flex;
+    list-style: none;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+}
+.item
+{
+    display: inline-block;
+    width: 180px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+}
+#maths
+{
+    background-color: purple;
+}
+#maths:hover
+{
+    background-color: blue;
+}
+#geo
+{
+    background-color: green;
+}
+#geo:hover
+{
+    background-color: yellowgreen;
+}
+#jeux
+{
+    background-color: red;
+}
+#jeux:hover
+{
+    background-color: orange;
+}
+p, ul, ol
+{
+    font-size: 18px;
+}
+#fin
+{
+    list-style: none;
+}
+h2
+{
+    font-size: 28px;
+    display: inline;
+    background-color: orange;
+    text-decoration: underline;
+}
+.mur
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+.carte
+{
+    width: 43%;
+    vertical-align: bottom;
+    border: 2px solid black;
+    text-align: center;
+    padding: 4px;
+    border-radius: 5px;
+    overflow: auto;
+}
+#cmaths
+{
+    background-color: blueviolet;
+}
+#cgeo
+{
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-around;
+}
+#cjeux
+{
+    background-color: yellow;
+    margin: auto;
+    margin-top: 20px;
+}
+.doc
+{
+   display: flex;
+   flex-direction: column;
+}
+.btn
+{
+    display: inline-block;
+    font-size: 23px;
+    width: 150px;
+    background-color: red;
+    text-align: center;
+    margin: 15px;
+    box-shadow: 0px 0px 3px black;
+    text-decoration: none;
+    color: black;
+    vertical-align: bottom;
+}
+.btn:hover
+{
+    box-shadow: 0px 0px 8px black;
+}
