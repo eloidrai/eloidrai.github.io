@@ -5,19 +5,19 @@
 
 @font-face {
     font-family: 'Liberation_sans';
-    src: url('fonts/Liberation_sans/LiberationSans-Regular-webfont.woff');
+    src: url('fonts/Liberation_sans/LiberationSans-Regular-webfont.woff') format('woff');
 }
 @font-face {
     font-family: 'Liberation_sans - Gras';
-    src: url('fonts/Liberation_sans/LiberationSans-Bold-webfont.woff');
+    src: url('fonts/Liberation_sans/LiberationSans-Bold-webfont.woff') format('woff');
 }
 @font-face {
     font-family: 'Liberation_sans - Italique';
-    src: url('fonts/Liberation_sans/LiberationSans-Italic-webfont.woff');
+    src: url('fonts/Liberation_sans/LiberationSans-Italic-webfont.woff') format('woff');
 }
 @font-face {
     font-family: 'Liberation_sans - Gras&Italique';
-    src: url('fonts/Liberation_sans/LiberationSans-BoldItalic-webfont.woff');
+    src: url('fonts/Liberation_sans/LiberationSans-BoldItalic-webfont.woff') format('woff');
 }
 ::selection
 {
