@@ -1,22 +1,32 @@
 @font-face {
-    font-family: 'comic_reliefregular';
-    src: url('fonts/comicrelief_regular_macroman/ComicRelief-webfont.eot');
-    src: url('fonts/comicrelief_regular_macroman/ComicRelief-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/comicrelief_regular_macroman/ComicRelief-webfont.woff2') format('woff2'),
-         url('fonts/comicrelief_regular_macroman/ComicRelief-webfont.woff') format('woff'),
-         url('fonts/comicrelief_regular_macroman/ComicRelief-webfont.ttf') format('truetype'),
-         url('fonts/comicrelief_regular_macroman/ComicRelief-webfont.svg#comic_reliefregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'Comic_relief';
+    src: url('fonts/ComicRelief-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Liberation_sans';
+    src: url('fonts/Liberation_sans/LiberationSans-Regular-webfont.woff');
+}
+@font-face {
+    font-family: 'Liberation_sans - Gras';
+    src: url('fonts/Liberation_sans/LiberationSans-Bold-webfont.woff');
+}
+@font-face {
+    font-family: 'Liberation_sans - Italique';
+    src: url('fonts/Liberation_sans/LiberationSans-Italic-webfont.woff');
+}
+@font-face {
+    font-family: 'Liberation_sans - Gras&Italique';
+    src: url('fonts/Liberation_sans/LiberationSans-BoldItalic-webfont.woff');
 }
 ::selection
 {
-    background-color: lightgrey;
+    background-color: turquoise;
 }
 body
 {
-    background-color: turquoise;
-    font-family: sans-serif;
+    background-color: chocolate;
+    font-family: 'Liberation_sans';
     font-size: 16px;
 }
 header
@@ -26,8 +36,8 @@ header
 h1
 {
     display: flex;
-    font-size: 40px;
-    font-family: comic_reliefregular;
+    font-size: 45px;
+    font-family: comic_relief;
     justify-content: center;
     margin: 10px;
     position: relative;
@@ -42,13 +52,14 @@ h1 a
 {
     display: flex;
     list-style: none;
-    font-size: 25px;
+    font-size: 26px;
     text-align: center;
     justify-content: center;
 }
 .item
 {
     display: inline-block;
+    font-family: 'Liberation_sans - Gras';
     width: 180px;
     color: black;
     text-decoration: none;
