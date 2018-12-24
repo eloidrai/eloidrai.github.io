@@ -128,7 +128,7 @@ h2
     border-radius: 5px;
     overflow: auto;
 }
-figcaption p
+.carte p, figcaption p
 {
     text-align: justify;
 }
