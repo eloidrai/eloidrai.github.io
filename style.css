@@ -170,3 +170,12 @@ h2
 {
     box-shadow: 0px 0px 8px black;
 }
+
+
+@media all and (max-width: 1024px)
+{
+    .carte
+    {
+        width: 80%;
+    }
+}
