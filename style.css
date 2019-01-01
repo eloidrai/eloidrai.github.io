@@ -132,6 +132,10 @@ h2
 {
     text-align: justify;
 }
+figcaption
+{
+    padding: 10px;
+}
 #cmaths
 {
     background-color: blueviolet;
@@ -161,14 +165,16 @@ h2
     background-color: red;
     text-align: center;
     margin: 15px;
-    box-shadow: 0px 0px 3px black;
+    box-shadow: 0px 0px 2px black;
     text-decoration: none;
     color: black;
     vertical-align: bottom;
+    transition: 0.2s;
 }
 .btn:hover
 {
-    box-shadow: 0px 0px 8px black;
+    box-shadow: 0px 0px 12px black;
+    transform: scale(1.1);
 }
 
 
