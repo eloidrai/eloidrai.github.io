@@ -1,0 +1,67 @@
+body
+{
+    background-color: blue;
+}
+h1
+{
+    text-align: center;
+}
+mark
+{
+    background-color: red;
+}
+section
+{
+    display: block;
+    margin: auto;
+    flex-direction: row;
+    background-color: yellowgreen;
+    width: 500px;
+    border: solid black 2px;
+    border-radius: 15px;
+    padding: 8px;
+}
+select, input
+{
+    background-color: rgb(250, 255, 189);
+}
+input
+{
+    width: 85px;
+}
+#choix
+{
+    font-style: italic;
+}
+#magique
+{
+    visibility: hidden;
+}
+#donnees
+{
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+.l
+{
+    text-decoration: underline;
+    font-weight: bold;
+}
+#resultat
+{
+    background-color: yellow;
+    font-size: 22px;
+    font-weight: bold;
+}
+#calculer
+{
+    display: block;
+    margin-left: 35px;
+}
+#rep
+{
+    text-align: center;
+    margin-top: 5px;
+}

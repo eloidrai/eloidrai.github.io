@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang='fr' dir='ltr'>
+    <head>
+        <meta charset='utf-8' />
+        <link rel='stylesheet' href=style.css />
+        <link rel='icon' href='icone.gif' />
+        <title>Distance-Temps-Vitesse</title>
+    </head>
+    <body>
+        <h1><mark>Convertisseur</mark></h1>
+        <section>
+            <strong id='choix'>Selectionner la valeur à trouver :</strong>
+            <select size='1' id='valeur' name='valeur'>
+                <option value="d">Distance</option>
+                <option value="t">Temps</option>
+                <option value="v">Vitesse</option>
+            </select>
+            <button id='valid' onclick='init();'>Valider</button>
+            <div id="magique">
+                <div id='donnees'>
+                    <span id='legende1' class='l'></span>  <input type='number' id='valeur1' name='valeur1'/>
+                    <br/>
+                    <span id='legende2' class='l'></span>  <input type='number' id='valeur2' name='valeur2'/>
+                </div>
+                <button id='calculer' onclick='calc()'>Calculer</button>
+                <div id='rep'>
+                    <span id='resultat'></span>
+                <dic id='rep'>
+                <br>
+            </div>
+        </section>
+    </body>
+    <script src='script.js'></script>
+<html>
