@@ -22,8 +22,8 @@ function init(){
             l2.innerHTML = "Temps (s):";
             break;
         }
-    n1.value = 0;
-    n2.value = 0;
+    n1.value = "";
+    n2.value = "";
     r.innerHTML= "";
 }
 
