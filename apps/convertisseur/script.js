@@ -30,13 +30,13 @@ function init(){
 function calc(){
     switch(v.value){
         case 'd':
-            r.innerHTML = String(Number(n1.value)*Number(n2.value))+" mètres";
+            r.innerHTML = String(n1.value*n2.value)+" mètres";
             break;
         case 't':
-            r.innerHTML = String(Number(n1.value)/Number(n2.value))+" secondes";
+            r.innerHTML = String(n1.value/n2.value)+" secondes";
             break;
         case 'v':
-            r.innerHTML = String(Number(n1.value)/Number(n2.value))+" mètres par seconde";
+            r.innerHTML = String(n1.value/n2.value)+" mètres par seconde";
             break;
     }
 }
