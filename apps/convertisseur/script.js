@@ -24,7 +24,7 @@ function init(){
         }
     n1.value = "";
     n2.value = "";
-    r.innerHTML= "";
+    r.style.visibility= 'hidden';
 }
 
 function calc(){
@@ -39,4 +39,5 @@ function calc(){
             r.innerHTML = String(n1.value/n2.value)+" mètres par seconde";
             break;
     }
+    r.style.visibility='visible';
 }

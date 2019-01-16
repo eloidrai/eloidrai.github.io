@@ -29,6 +29,10 @@ input
 {
     width: 85px;
 }
+#titre
+{
+    background-color: red;
+}
 #choix
 {
     font-style: italic;
