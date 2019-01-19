@@ -1,3 +1,10 @@
+/*Fonctionnement*/
+#magique
+{
+    visibility: hidden;
+}
+
+/*Apparence*/
 body
 {
     background-color: blue;
@@ -36,10 +43,6 @@ input
 #choix
 {
     font-style: italic;
-}
-#magique
-{
-    visibility: hidden;
 }
 #donnees
 {
