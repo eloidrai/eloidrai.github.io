@@ -39,11 +39,15 @@ h2
     background-color: orange;
     text-decoration: underline;
 }
-
+em
+{
+    font-family: Liberation_sans - Italique;
+}
 /*En-tête*/
 header
 {
     background-image: url("img/np.png");
+    text-align: center;
 }
 h1
 {
@@ -55,22 +59,23 @@ h1
     position: relative;
     top: 8px;
 }
-h1 a
+h1 #titre
 {
     text-decoration: none;
     color: black;
+    background-color: yellow;
 }
 #menu
 {
     display: flex;
     list-style: none;
     font-size: 1.8em;
-    text-align: center;
     justify-content: center;
 }
 .item
 {
     display: inline-block;
+    text-align: center;
     font-family: 'Liberation_sans - Gras';
     width: 180px;
     color: black;
@@ -128,16 +133,15 @@ h1 a
     border: 2px solid black;
     text-align: center;
     padding: 4px;
+    margin: 5px;
     border-radius: 5px;
     overflow: auto;
 }
-.carte p, figcaption p
+.description
 {
     text-align: justify;
-}
-figcaption
-{
-    padding: 10px;
+    padding: 5px;
+    
 }
 .cmaths
 {
@@ -147,18 +151,13 @@ figcaption
 {
     background-color: yellowgreen;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .cjeux
 {
     background-color: yellow;
     margin: auto;
     margin-top: 20px;
-}
-.doc
-{
-   display: flex;
-   flex-direction: column;
 }
 .btn
 {
