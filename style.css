@@ -30,7 +30,7 @@ body
 {
     background-color: chocolate;
     font-family: 'Liberation_sans';
-    font-size: 16px;
+    font-size: 17px;
 }
 h2
 {
@@ -151,13 +151,17 @@ h1 #titre
 {
     background-color: yellowgreen;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .cjeux
 {
     background-color: yellow;
     margin: auto;
     margin-top: 20px;
+}
+.coté
+{
+    flex-grow: 1;
 }
 .btn
 {
