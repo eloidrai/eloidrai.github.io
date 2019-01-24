@@ -43,6 +43,7 @@ em
 {
     font-family: Liberation_sans - Italique;
 }
+
 /*En-tête*/
 header
 {
@@ -128,12 +129,12 @@ h1 #titre
 }
 .carte
 {
-    width: 43%;
+    width: 45%;
     vertical-align: bottom;
     border: 2px solid black;
     text-align: center;
     padding: 4px;
-    margin: 5px;
+    margin: 8px;
     border-radius: 5px;
     overflow: auto;
 }
@@ -156,13 +157,13 @@ h1 #titre
 .cjeux
 {
     background-color: yellow;
-    margin: auto;
-    margin-top: 20px;
 }
 .coté
 {
     flex-grow: 1;
 }
+
+/*Boutons*/
 .btn
 {
     display: inline-block;
@@ -181,13 +182,4 @@ h1 #titre
 {
     box-shadow: 0px 0px 12px black;
     transform: scale(1.1);
-}
-
-/*Responsive design pourri*/
-@media all and (max-width: 1450px)
-{
-    .carte
-    {
-        width: 80%;
-    }
 }
