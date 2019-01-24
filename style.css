@@ -1,3 +1,4 @@
+/*Polices*/
 @font-face {
     font-family: 'Comic_relief';
     src: url('fonts/ComicRelief-webfont.woff') format('woff');
@@ -19,6 +20,8 @@
     font-family: 'Liberation_sans - Gras&Italique';
     src: url('fonts/Liberation_sans/LiberationSans-BoldItalic-webfont.woff') format('woff');
 }
+
+/*Général*/
 ::selection
 {
     background-color: turquoise;
@@ -29,6 +32,15 @@ body
     font-family: 'Liberation_sans';
     font-size: 16px;
 }
+h2
+{
+    font-size: 1.6em;
+    display: inline;
+    background-color: orange;
+    text-decoration: underline;
+}
+
+/*En-tête*/
 header
 {
     background-image: url("img/np.png");
@@ -36,7 +48,7 @@ header
 h1
 {
     display: flex;
-    font-size: 45px;
+    font-size: 2.8em;
     font-family: comic_relief;
     justify-content: center;
     margin: 10px;
@@ -52,7 +64,7 @@ h1 a
 {
     display: flex;
     list-style: none;
-    font-size: 26px;
+    font-size: 1.8em;
     text-align: center;
     justify-content: center;
 }
@@ -96,20 +108,11 @@ h1 a
 {
     background-color: orange;
 }
-p, ul, ol
-{
-    font-size: 18px;
-}
+
+/*Spécifique*/
 #fin
 {
     list-style: none;
-}
-h2
-{
-    font-size: 28px;
-    display: inline;
-    background-color: orange;
-    text-decoration: underline;
 }
 .mur
 {
@@ -160,7 +163,7 @@ figcaption
 .btn
 {
     display: inline-block;
-    font-size: 23px;
+    font-size: 1.2em;
     width: 150px;
     background-color: red;
     text-align: center;
@@ -177,7 +180,7 @@ figcaption
     transform: scale(1.1);
 }
 
-
+/*Responsive design pourri*/
 @media all and (max-width: 1450px)
 {
     .carte
