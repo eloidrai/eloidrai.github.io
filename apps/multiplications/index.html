@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang='fr' dir='ltr'>
+    <head>
+        <meta charset='utf-8' />
+        <link rel='icon' href='icone.gif' />
+        <link rel='stylesheet' href='style.css' />
+        <title>Multiplications</title>
+    </head>
+    <body>
+        <h1><span id='titre'>Multiplications</span></h1>
+        <div id="menu">
+            <strong id="choix">Quelle table veux-tu réviser ? <input type='number' id="table" onkeydown="if (event.keyCode == 13){jeu();}"/></strong>
+       </div>
+        <div id="tableau">
+            <div id="message">
+                <span id="question">Calcul...</span>
+                <br/>
+                <input type='number' id="reponse" onkeydown="if (event.keyCode == 13){verifier();}" />
+            </div>
+        </div>
+    </body>
+    <script src='script.js'></script>
+<html>

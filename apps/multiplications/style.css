@@ -1,0 +1,70 @@
+body
+{
+    background-color: orange;
+}
+h1
+{
+    text-align: center;
+    font-size: 36px;
+}
+mark
+{
+    font-size: 70px;
+    font-weight: bold;
+}
+a, a:visited
+{
+    color: blue;
+}
+#titre
+{
+    background-color: red;
+}
+#menu
+{
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    background-color: blueviolet;
+    width: 600px;
+    border: solid black 2px;
+    border-radius: 15px;
+    padding: 8px;
+    font-style: italic;
+    font-size: 20px;
+}
+#table
+{
+    font-size: 16px;
+}
+#tableau
+{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    flex-direction: row;
+    background-color: yellowgreen;
+    width: 800px;
+    height: 500px;
+    border: solid black 2px;
+    border-radius: 15px;
+    padding: 8px;
+}
+#message
+{
+    text-align: center;
+}
+#question
+{
+    font-size: 100px;
+}
+#reponse
+{
+    font-size: 22px;
+}
+#rejouer
+{
+    font-size: 35px;
+}
