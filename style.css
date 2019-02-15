@@ -117,6 +117,11 @@ h1 #titre
 }
 
 /*Spécifique*/
+section
+{
+    padding: 7px;
+}
+
 #fin
 {
     list-style: none;
