@@ -31,11 +31,12 @@ a, a:visited
     padding: 8px;
     font-style: italic;
     font-size: 1.3em;
+    text-align: center;
 }
 #table
 {
     font-size: 1em;
-    width: 70px;
+    width: 200px;
 }
 #tableau
 {
