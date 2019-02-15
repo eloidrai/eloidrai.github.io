@@ -5,11 +5,10 @@ body
 h1
 {
     text-align: center;
-    font-size: 36px;
 }
 mark
 {
-    font-size: 70px;
+    font-size: 5em;
     font-weight: bold;
 }
 a, a:visited
@@ -31,11 +30,11 @@ a, a:visited
     border-radius: 15px;
     padding: 8px;
     font-style: italic;
-    font-size: 20px;
+    font-size: 1.3em;
 }
 #table
 {
-    font-size: 16px;
+    font-size: 1em;
 }
 #tableau
 {
@@ -58,13 +57,17 @@ a, a:visited
 }
 #question
 {
-    font-size: 100px;
+    font-size: 7em;
 }
 #reponse
 {
-    font-size: 22px;
+    font-size: 1.5em;
 }
 #rejouer
 {
-    font-size: 35px;
+    font-size: 2.5em;
+}
+#commentaire
+{
+    font-size: 2em;
 }
