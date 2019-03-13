@@ -1,4 +1,4 @@
-var table = document.getElementById("table"), message = document.getElementById("message"), menu = document.getElementById("menu"), tableau = document.getElementById("tableau"), page = document.querySelector('body');
+var table = document.getElementById("table"), message = document.getElementById("message"), menu = document.getElementById("menu"), tableau = document.getElementById("tableau");
 var facteur, question, reponse;
 var etapes = 0, score = 0;
 
@@ -15,8 +15,8 @@ function debut(){
 }
 
 function demander(){
-    page.onkeypress = "";
-    page.onclick = "";
+    document.onkeypress = "";
+    document.onclick = "";
     message.innerHTML = "<span id='question'></span><br/><input type='number' id='reponse' onkeydown='if (event.keyCode == 13){verifier();}' />" ;
     question = document.getElementById("question");
     reponse = document.getElementById("reponse");
@@ -27,10 +27,10 @@ function demander(){
 }
 
 function continuer(){
-    page.onkeypress = function(){
+    document.onkeypress = function(){
         demander();
     };
-    page.onclick = function(){
+    document.onclick = function(){
         demander();
     };
 }
