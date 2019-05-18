@@ -47,6 +47,6 @@ function verifier(){
         }
         etapes++;
     } else {
-        message.innerHTML = "<mark>Score : "+score+"/10 </mark><br/><a href='index.html' id='rejouer'>Rejouer</a>";
+        message.innerHTML = "<mark>Score : "+score+"/10 </mark><br/><a href='javascript:location.reload()' id='rejouer'>Rejouer</a>";
     }
 }
