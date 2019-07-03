@@ -1,0 +1,129 @@
+/*Aspect général*/
+#titre
+{
+    background-color: red;
+    font-size: 45px;
+}
+
+body
+{
+    text-align: center;
+    background-color: gold;
+}
+
+section
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#message
+{
+    position: absolute;
+    display: none;
+    top: 135px;
+    align-self: center;
+    font-size: 80px;
+    padding: 5px;
+    box-shadow: 3px 3px 2px;
+}
+
+table#jeu
+{
+    background-color: grey;
+    font-weight: bold;
+    font-size: 25px;
+    user-select: none;
+    -moz-user-select: none;
+    margin: auto;
+}
+
+table#jeu tbody tr td
+{
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+#score, #re
+{
+    display: block;
+    font-size: 20px;
+}
+
+#re
+{
+    color: darkgreen;
+    display: inline;
+}
+
+/*Cases*/
+
+.c0
+{
+    background-color: #d3d3d3a6;
+}
+
+.c2
+{
+    background-color: lightblue;
+}
+
+.c4
+{
+    background-color: lightgreen;
+}
+
+.c8
+{
+    background-color: orange;
+}
+
+.c16
+{
+    background-color: violet;
+}
+
+.c32
+{
+    background-color: brown;
+}
+
+.c64
+{
+    background-color: aquamarine;
+}
+
+.c128
+{
+    background-color: yellow;
+}
+
+.c256
+{
+    background-color: blueviolet;
+}
+
+.c512
+{
+    background-color: chocolate;
+}
+
+.c1024
+{
+    background-color: yellowgreen;
+}
+
+.c2048
+{
+    background-color: coral;
+}
+
+.plus_grand
+{
+    background-color: crimson;
+    color: white;
+}
+
