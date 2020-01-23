@@ -189,3 +189,30 @@ section
     box-shadow: 0px 0px 12px black;
     transform: scale(1.1);
 }
+
+
+/*Aqua*/
+#aqua {
+    border: solid 3px darkblue;
+    border-radius: 3px;
+    padding-top: 5px;
+    top: -5px;
+    font-size: 1.1em;
+    padding: 4px;
+    position: fixed; right: 20px; background: blue;
+}
+
+#aqua a {
+    color: black;
+}
+
+#aqua img {
+    width: 20px;
+    height: 20px;
+    transition: 0.2s;
+}
+
+#aqua:hover img {
+    width: 75px;
+    height: 75px;
+}
