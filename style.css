@@ -44,6 +44,10 @@ em
 {
     font-family: Liberation_sans - Italique;
 }
+a
+{
+    color: blue;
+}
 
 /*En-tête*/
 header
