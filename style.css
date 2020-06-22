@@ -123,7 +123,11 @@ h1 #titre
 /*Spécifique*/
 section
 {
-    padding: 7px;
+    padding: 18px;
+}
+
+article {
+    text-align: justify;
 }
 
 #fin
