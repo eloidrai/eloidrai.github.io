@@ -57,13 +57,12 @@ header
 }
 h1
 {
-    display: flex;
-    font-size: 2.8em;
     font-family: comic_relief;
     justify-content: center;
     margin: 0;
     position: relative;
     top: 8px;
+    font-size: 22.5px;
 }
 h1 #titre
 {
@@ -71,19 +70,20 @@ h1 #titre
     color: black;
     background-color: yellow;
 }
+
 #menu
 {
-    display: flex;
     list-style: none;
-    font-size: 1.8em;
     justify-content: center;
+    padding: 0;
+    display: flex;
 }
+
 .item
 {
     display: inline-block;
     text-align: center;
     font-family: 'Liberation_sans - Gras';
-    width: 180px;
     color: black;
     text-decoration: none;
     padding: 10px;
@@ -139,7 +139,6 @@ section
 }
 .carte
 {
-    width: 45%;
     vertical-align: bottom;
     border: 2px solid black;
     text-align: center;
@@ -147,6 +146,7 @@ section
     margin: 8px;
     border-radius: 5px;
     overflow: auto;
+    width: 90%;
 }
 .description
 {
@@ -161,16 +161,19 @@ section
 .cgeo
 {
     background-color: yellowgreen;
-    display: flex;
-    justify-content: space-around;
 }
+
+.illustration {
+    height: 150px;
+}
+
 .cjeux
 {
     background-color: yellow;
 }
-.coté
-{
-    flex-grow: 1;
+
+.desc {
+    flex: 1;
 }
 
 /*Boutons*/
@@ -181,7 +184,7 @@ section
     width: 150px;
     background-color: red;
     text-align: center;
-    margin: 15px;
+    margin: 8px 15px;
     box-shadow: 0px 0px 2px black;
     text-decoration: none;
     color: black;
@@ -195,28 +198,29 @@ section
 }
 
 
-/*Aqua*/
-#aqua {
-    border: solid 3px darkblue;
-    border-radius: 3px;
-    padding-top: 5px;
-    top: -5px;
-    font-size: 1.1em;
-    padding: 4px;
-    position: fixed; right: 20px; background: blue;
-}
-
-#aqua a {
-    color: black;
-}
-
-#aqua img {
-    width: 20px;
-    height: 20px;
-    transition: 0.2s;
-}
-
-#aqua:hover img {
-    width: 75px;
-    height: 75px;
+@media (min-width: 500px) {
+    h1 {
+        font-size: 2.8em;
+    }
+    
+    #menu {
+        font-size: 1.8em;
+    }
+    
+    .item {
+        width: 180px;
+    }
+    
+    .carte {
+        width: 45%;
+    }
+    
+    .illustration {
+        height: 240px;
+    }
+    
+    .cgeo {
+        display: flex;
+        justify-content: space-around;
+    }
 }
