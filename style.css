@@ -210,7 +210,9 @@ article {
     .illustration {
         height: 240px;
     }
-    
+}
+
+@media (min-width: 500px) {
     .cgeo {
         display: flex;
         justify-content: space-around;
