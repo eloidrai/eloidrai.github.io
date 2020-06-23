@@ -201,20 +201,8 @@ article {
     transform: scale(1.1);
 }
 
-
-@media (min-width: 500px) {
-    h1 {
-        font-size: 2.8em;
-    }
-    
-    #menu {
-        font-size: 1.8em;
-    }
-    
-    .item {
-        width: 180px;
-    }
-    
+/*Les cartes*/
+@media (min-width: 1100px) {
     .carte {
         width: 45%;
     }
@@ -226,5 +214,20 @@ article {
     .cgeo {
         display: flex;
         justify-content: space-around;
+    }
+}
+
+/*L'en-tête*/
+@media (min-width: 750px) {
+    h1 {
+        font-size: 2.8em;
+    }
+    
+    #menu {
+        font-size: 1.8em;
+    }
+    
+    .item {
+        width: 180px;
     }
 }
